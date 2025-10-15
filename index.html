@@ -8,6 +8,9 @@
 <body>
     
 
+    <div id="container">
+
+    </div>
 
 
 
@@ -19,6 +22,26 @@
 
     // const result = add(20,25);
     // console.log(result);
+    const container = document.getElementById("container");
+
+  const h1 = document.createElement("h1");
+  h1.style.color="red";
+  h1.style.backgroundColor="green";
+  h1.style.border="1px solid blue";
+  h1.textContent="Good night";
+  container.appendChild(h1);
+
+
+
+  const btn = document.createElement("button");
+  btn.textContent="Login";
+  btn.style.padding="10px 20px";
+  btn.style.borderRadius="5px";
+  btn.style.cursor="pointer";
+
+
+    container.appendChild(btn);
+
  
  
 
